@@ -11,6 +11,6 @@ public class StringifyDateLambda implements RequestHandler<Request, String> {
 
     @Override
     public String handleRequest(Request request, Context context) {
-        return DateTimeAPI.stringify(LocalDateTime.parse(request.getInput()), request.getNow());
+        return DateTimeAPI.stringify(LocalDateTime.parse(request.getInput()), LocalDateTime.parse(request.getNow()));
     }
 }

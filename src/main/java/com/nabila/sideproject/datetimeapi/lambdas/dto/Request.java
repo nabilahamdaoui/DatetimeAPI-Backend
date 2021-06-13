@@ -1,16 +1,24 @@
 package com.nabila.sideproject.datetimeapi.lambdas.dto;
 
-import java.time.LocalDateTime;
+import java.io.Serializable;
 
-public class Request {
+public class Request implements Serializable {
     String input;
-    LocalDateTime now;
+    String now;
 
     public String getInput() {
         return input;
     }
 
-    public LocalDateTime getNow() {
+    public String getNow() {
         return now;
+    }
+
+    public void setInput(String input) {
+        this.input = input;
+    }
+
+    public void setNow(String now) {
+        this.now = now;
     }
 }

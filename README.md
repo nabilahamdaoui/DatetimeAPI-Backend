@@ -2,7 +2,7 @@
 
 This is the backend code of the Date Time API in https://ancient-scrubland-17264.herokuapp.com
 
-![alt tag](preview.png)
+![alt tag](app-preview.png)
 
 `DateTimeAPI` contains two main methods: `parse` and `stringify`.
 
