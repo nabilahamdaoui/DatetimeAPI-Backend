@@ -161,7 +161,7 @@ public class DateTimeAPI {
 
 
     /**
-     * Get difference between to date
+     * Get difference between tow dates
      *
      * @param dateTime Input date time
      * @param now      The date to compare against
